@@ -1,0 +1,142 @@
+.joinroom-container {
+  background-color: #121212; /* dark background */
+  min-height: 100vh;
+}
+
+.joinroom-card {
+  border-radius: 12px;
+  background-color: #1e1e1e; /* card dark bg */
+}
+
+.joinroom-card-body {
+  background-color: #222; /* inner section */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.joinroom-img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.btn-block {
+  width: 100%;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.new-room {
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.new-room:hover {
+  color: #00ff88; /* glowing hover effect */
+}
+
+/* Container takes full height */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #121212; /* dark background */
+}
+
+/* Row wrapper (flexbox) */
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Card wrapper */
+.card-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Card itself */
+.card {
+  background: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image inside card */
+.card-image {
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+/* Title */
+.title {
+  color: #ffffff;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background: #444;
+  color: #fff;
+  font-size: 14px;
+}
+
+.input-field::placeholder {
+  color: #bbb;
+}
+
+/* Button */
+.btn-join {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-join:hover {
+  background: #218838;
+}
+
+/* Text below button */
+.new-room-text {
+  margin-top: 15px;
+  color: #eee;
+  font-size: 14px;
+}
+
+.new-room-link {
+  color: #28a745;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.new-room-link:hover {
+  text-decoration: underline;
+}
